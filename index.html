@@ -98,17 +98,7 @@ function updateClock(){
         String(m).padStart(2,"0");
 }
 
-updateClock();
-setInterval(updateClock,1000);
-setInterval(function(){
 
-    var frame = document.getElementById("slideframe");
-
-    frame.src =
-        "https://docs.google.com/presentation/d/e/2PACX-1vTygflv2yq_JLhvMg9VPdIlxOWCOQVM53ZmWUQrZ_1LWd4OJcL-OX9ijSS7vS7SuuECsToNf2QpD0DR/embed?start=false&loop=false&delayms=3000&t="
-        + new Date().getTime();
-
-},600000);
 
 </script>
 
