@@ -97,6 +97,7 @@ function updateClock(){
         h + ":" +
         String(m).padStart(2,"0");
 }
+
 updateClock();
 setInterval(updateClock,1000);
 setInterval(function(){
@@ -108,8 +109,6 @@ setInterval(function(){
         + new Date().getTime();
 
 },600000);
-
-
 
 </script>
 
